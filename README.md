@@ -10,7 +10,6 @@
 
 Для запуска:
 > docker-compose up --build
-> подождать
 
 Работает на 80 порту:
 > http://localhost/
