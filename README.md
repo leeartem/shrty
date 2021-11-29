@@ -2,6 +2,7 @@
  - Laravel 8
  - Vue 3
 
+ - MongoDB :)
  - Octane (Swoole)
  - Vuesax-компоненты
  - Vue Router
