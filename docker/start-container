@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ $# -gt 0 ];then
+    exec gosu $WWWUSER "$@"
+else
+    exec bash -c "cd /var/www/html/ && composer install \
+        && php /var/www/html/artisan optimize && npm i && npm run dev \
+        && php /var/www/html/artisan octane:start --host=0.0.0.0 --server=swoole"
+fi
