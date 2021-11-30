@@ -1,6 +1,6 @@
 ## Сокрощатор ссылок
  - Laravel 8
- - Vue 3
+ - Vue
 
  - MongoDB :)
  - Octane (Swoole)
